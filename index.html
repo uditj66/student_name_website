@@ -14,5 +14,43 @@
         <li>node.js</li>
         <li>cli</li>
      </ol>
+     <a href="index.html">home</a>
+     <div class="container"><form action="">
+         <h1 class="mainheading">PAYMENT INFORMATION</h1><hr>
+         <h3>ENTER YOUR DETAILS</h3><hr>
+         <p>ADD PHOTOGRAPH:<input type="file" value="CLICK TO ADD PHOTOGRAPH"></p>
+         <p>NAME* : <input type="text" name="fname" required placeholder="pandey"></p>
+         <fieldset>
+             <legend>GENDER*</legend>
+         <p>MALE : <input type="radio" name="gender" id="male" required>FEMALE :<input type="radio" name="gender" id="female" required >OTHER: <input type="radio" name="gender" id="other" required><p>
+         </fieldset>
+         <p>ADDRESS: <textarea name="address" id="address" cols="100" rows="5"></textarea></p>
+         <p>EMAIL* : <input type="email" name="email" id="email" required></p>
+         <p>PINCODE* : <input type="number" name="pincode" id="pincode" required></p>
+         <p>AGREE OR NOT: 
+                          <input type="checkbox">check your name</p>
+                          <input type="checkbox">check your gender</p>
+                          <input type="checkbox">check your email</p>
+                          <input type="checkbox">check your pincode</p>
+                         
+         <hr>
+         <h1 class="mainheading">CARD INFORMATION</h1>
+         <hr>
+         <p>CARD TYPE*: 
+             <select name="card_type" id="card_type" required>
+                 <option value=""> #--SELECT CARD TYPE--#</option>
+                 <option value="visa"> VISA</option>
+                 <option value="mastercard"> MASTERCARD</option>
+                 <option value="rupay"> RUPAY</option>
+         </select>
+         </p>
+         <p>CARD NUMBER* : <input type="number" name="card_number" id="card_number" required></p>
+         <p>EXPIRY DATE* : <input type="date" name="exp_date" id="exp_date" required></p>
+         <p>CVV* : <input type="password" name="cvv_number" id="cvv_number" required></p>
+         <input type="submit" value="PAYNOW">
+         <input type="reset" value="RESET">
+ 
+     </form>
+ </div>
 </body>
 </html>
